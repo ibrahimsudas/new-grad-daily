@@ -1,2 +1,22 @@
-# new-grad-daily
-A task tracker in Java 21
+# Taskflow
+
+A task tracker written in Java 21. It starts as a command-line app and grows
+into a REST API. It's a side project I use to get better at backend
+development.
+
+## Features
+
+Work in progress. Features are listed here as they land.
+
+## Getting started
+
+Requires Java 21. The Maven wrapper takes care of the rest.
+
+```bash
+./mvnw -B verify        # build and run the tests
+java -cp target/classes dev.taskflow.Main --version
+```
+
+## Tech
+
+Java 21 · Maven · JUnit 5 · AssertJ
