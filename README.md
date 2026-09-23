@@ -17,6 +17,8 @@ Requires Java 21. The Maven wrapper takes care of the rest.
 java -cp target/classes dev.taskflow.Main --version
 ```
 
+Before pushing, run `bash scripts/check.sh` to build, test and check formatting.
+
 ## Tech
 
-Java 21 · Maven · JUnit 5 · AssertJ
+Java 21 · Maven · JUnit 5 · AssertJ · Spotless (google-java-format)
